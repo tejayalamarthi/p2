@@ -166,3 +166,29 @@ flex-basis: 35%;
     background:#ff04ff;
     transform: translateY(-10px);
 }
+
+.contact_left i {
+    margin: 10px 10px;
+    color: #fff;
+    font-size: 30px;
+    transition: color 0.5s, transform 0.5s;
+
+}
+.contact_left i:hover{
+    color: #ff04ff;
+    transform: translateY(-8px);
+}
+.btn.btn2{
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #121212;
+    background-color: #fff;
+    padding: 10px;
+    transition: background-color 0.5s, color 0.4s , transform 0.5s;
+}
+.btn.btn2:hover{
+    background-color: #ff04ff;
+    color: #fff;
+    transform: translateY(-3px);    
+}
